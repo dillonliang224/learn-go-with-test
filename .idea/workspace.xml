@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e079a80-0e14-4cd4-89fe-9cf5f543cfa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/dictionary.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/dictionary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointers/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/pointers/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointers/wallet_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pointers/wallet_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,42 +15,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointers/wallet.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointers/wallet_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="44">
-                <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/maps/dictionary_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maps/dictionary.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -60,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.13/libexec" />
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -78,20 +61,23 @@
         <option value="$PROJECT_DIR$/arrays/sum_test.go" />
         <option value="$PROJECT_DIR$/structs/shapes.go" />
         <option value="$PROJECT_DIR$/structs/shapes_test.go" />
-        <option value="$PROJECT_DIR$/pointers/wallet_test.go" />
-        <option value="$PROJECT_DIR$/pointers/wallet.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pointers/wallet.go" />
+        <option value="$PROJECT_DIR$/pointers/wallet_test.go" />
+        <option value="$PROJECT_DIR$/maps/dictionary.go" />
+        <option value="$PROJECT_DIR$/maps/dictionary_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="27" />
-    <option name="width" value="1680" />
-    <option name="height" value="1023" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="400" />
+    <option name="width" value="1440" />
+    <option name="height" value="500" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -101,8 +87,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="gotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gotest" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-go-with-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-go-with-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-go-with-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-go-with-test" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,6 +110,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="go" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -141,38 +133,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestWallet in gotest/pointers">
-    <configuration name="TestArea in gotest/structs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSearch in gotest/maps">
+    <configuration name="TestSearch in gotest/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gotest" />
-      <working_directory value="$PROJECT_DIR$/structs" />
+      <working_directory value="$PROJECT_DIR$/maps" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="gotest/structs" />
+      <package value="gotest/maps" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArea$" />
+      <pattern value="^TestSearch$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArea/circles in gotest/structs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearch/Known_word in gotest/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gotest" />
-      <working_directory value="$PROJECT_DIR$/structs" />
+      <working_directory value="$PROJECT_DIR$/maps" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="gotest/structs" />
+      <package value="gotest/maps" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArea$/^circles$" />
+      <pattern value="^TestSearch$/^Known_word$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArea/rectangles in gotest/structs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearch/Unknown_word in gotest/maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gotest" />
-      <working_directory value="$PROJECT_DIR$/structs" />
+      <working_directory value="$PROJECT_DIR$/maps" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="gotest/structs" />
+      <package value="gotest/maps" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArea$/^rectangles$" />
+      <pattern value="^TestSearch$/^Unknown_word$" />
       <method v="2" />
     </configuration>
     <configuration name="TestWallet in gotest/pointers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -186,68 +178,69 @@
       <pattern value="^TestWallet$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test gotest/structs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWallet/Withdraw_insufficient_funds in gotest/pointers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gotest" />
-      <working_directory value="$PROJECT_DIR$/structs" />
+      <working_directory value="$PROJECT_DIR$/pointers" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="gotest/structs" />
+      <package value="gotest/pointers" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestWallet$/^Withdraw_insufficient_funds$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSearch in gotest/maps" />
+        <item itemvalue="Go Test.TestSearch/Unknown_word in gotest/maps" />
+        <item itemvalue="Go Test.TestSearch/Known_word in gotest/maps" />
         <item itemvalue="Go Test.TestWallet in gotest/pointers" />
-        <item itemvalue="Go Test.TestArea in gotest/structs" />
-        <item itemvalue="Go Test.TestArea/circles in gotest/structs" />
-        <item itemvalue="Go Test.TestArea/rectangles in gotest/structs" />
-        <item itemvalue="Go Test.go test gotest/structs" />
+        <item itemvalue="Go Test.TestWallet/Withdraw_insufficient_funds in gotest/pointers" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArea_rectangles_in_gotest_structs - 2019.09.17 at 19h 53m 02s.xml">
-      <configuration name="TestArea/rectangles in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArea_circles_in_gotest_structs - 2019.09.17 at 19h 53m 05s.xml">
-      <configuration name="TestArea/circles in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArea_in_gotest_structs - 2019.09.17 at 19h 53m 41s.xml">
-      <configuration name="TestArea in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArea_circles_in_gotest_structs - 2019.09.17 at 19h 53m 45s.xml">
-      <configuration name="TestArea/circles in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArea_in_gotest_structs - 2019.09.17 at 19h 57m 11s.xml">
-      <configuration name="TestArea in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArea_in_gotest_structs - 2019.09.17 at 20h 01m 17s.xml">
-      <configuration name="TestArea in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArea_in_gotest_structs - 2019.09.17 at 20h 04m 05s.xml">
-      <configuration name="TestArea in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArea_in_gotest_structs - 2019.09.17 at 20h 09m 02s.xml">
-      <configuration name="TestArea in gotest/structs" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestWallet_in_gotest_pointers - 2019.09.17 at 20h 15m 41s.xml">
+    <history-entry file="TestWallet_in_gotest_pointers - 2019.09.17 at 22h 38m 35s.xml">
       <configuration name="TestWallet in gotest/pointers" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWallet_in_gotest_pointers - 2019.09.17 at 20h 17m 12s.xml">
+    <history-entry file="TestWallet_in_gotest_pointers - 2019.09.17 at 22h 39m 27s.xml">
       <configuration name="TestWallet in gotest/pointers" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestWallet_in_gotest_pointers - 2019.09.17 at 22h 40m 36s.xml">
+      <configuration name="TestWallet in gotest/pointers" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_gotest_maps - 2019.09.17 at 22h 58m 58s.xml">
+      <configuration name="TestSearch in gotest/maps" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_gotest_maps - 2019.09.17 at 22h 59m 19s.xml">
+      <configuration name="TestSearch in gotest/maps" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_gotest_maps - 2019.09.17 at 23h 01m 01s.xml">
+      <configuration name="TestSearch in gotest/maps" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_gotest_maps - 2019.09.17 at 23h 02m 30s.xml">
+      <configuration name="TestSearch in gotest/maps" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_Unknown_word_in_gotest_maps - 2019.09.17 at 23h 07m 04s.xml">
+      <configuration name="TestSearch/Unknown_word in gotest/maps" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_Known_word_in_gotest_maps - 2019.09.17 at 23h 07m 12s.xml">
+      <configuration name="TestSearch/Known_word in gotest/maps" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSearch_in_gotest_maps - 2019.09.17 at 23h 10m 37s.xml">
+      <configuration name="TestSearch in gotest/maps" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="27" width="1680" height="1023" extended-state="0" />
+    <frame x="0" y="400" width="1440" height="500" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2110951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32647815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,13 +313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.go" />
     <entry file="file://$PROJECT_DIR$/hello-world/hello_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -372,34 +359,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointers/wallet.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointers/wallet_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/pointers/wallet_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointers/wallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#18#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/dictionary.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/dictionary_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
